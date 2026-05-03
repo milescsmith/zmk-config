@@ -10,10 +10,6 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: mikoto
-      url: https://github.com/zhiayang/mikoto
-      revision: master
-      path: modules/mikoto
     - name: m122_keyboard
       url: https://github.com/SvenHaedrich/m122_keyboard
       revision: main
